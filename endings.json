@@ -1,4 +1,4 @@
-{
+var endings = {
     "start": {
         "prompt": "From the office area, I have...",
         "paths": ["coward", "window", "leftDoor", "rightDoor", "serious", "input1"]
