@@ -45,7 +45,7 @@
             var ultraDeluxe = false;
             $(document).ready(function() {
                 var routes = endings;
-                fetch('./endings.json').then(response => routes = response.json());
+                // fetch('./endings.json').then(response => routes = response.json());
                 $(".startForm button").click(function() {
                     branch("start",routes.start.paths,"begin",routes);
                     $(this).parent().css("display", "none");

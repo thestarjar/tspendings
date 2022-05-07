@@ -6,21 +6,25 @@ var endings = {
     "coward": {
         "option": "closed myself into office 427",
         "hint": "Close yourself into your office at the start of a run.",
-        "ending": "Coward Ending"
+        "ending": "Coward Ending",
+        "no-bucket": true
     },
     "window": {
         "option": "climbed onto Employee 434's desk and out the window",
         "hint": "Climb onto employee 434's chair and desk, and walk out the window.",
-        "ending": "Window / OOB Ending"
+        "ending": "Window / OOB Ending",
+        "bucket-ending": "Slain Ending"
     },
     "serious": {
         "option": "entered 'sv_cheats 1' in the developer console",
         "hint": "Before launching the game in Steam, click Settings > General, go to 'Launch Options', and enter <strong>-console</strong>. Then, launch the game and input <strong>sv_cheats 1</strong> in the console.",
-        "ending": "Serious Ending"
+        "ending": "Serious Ending",
+        "no-bucket": true
     },
     "input1": {
         "option": "clicked the INPUT screen on computer 419 (if the input screen isn't there, you have done this!)",
-        "hint": "Click the INPUT screen on computer 419."
+        "hint": "Click the INPUT screen on computer 419.",
+        "no-bucket": true
     },
     "input2": {
         "option": "clicked the INPUT screen on computer 423 (if you've restarted since the previous input, and this input screen isn't there, you have done this!)",
@@ -54,7 +58,8 @@ var endings = {
     "downStairs": {
         "option": "gone down the stairs",
         "hint": "Left Door > Down Stairs",
-        "ending": "Mariella Ending"
+        "ending": "Mariella Ending",
+        "bucket-ending": "Bucket Mariella Ending"
     },
     "upStairs": {
         "option": "gone up the stairs",
@@ -65,7 +70,8 @@ var endings = {
     "escapePod": {
         "option": "played chicken with the wooden double doors",
         "hint": "Left Door > Up Stairs > At the wooden double doors, walk a few steps into the room and quickly back out. It might take a few tries, but you'll know you got this right when the doors close in FRONT of you. Then, retrace your steps.",
-        "ending": "Escape Pod Ending"
+        "ending": "Escape Pod Ending",
+        "bucket-ending": "Sacrifice Ending"
     },
     "elevator": {
         "option": "entered the code (or waited it out) and taken the boss's elevator down",
@@ -93,22 +99,26 @@ var endings = {
         "tspud": true,
         "option": "fallen to the bottom of the facility",
         "hint": "Left Door > Up Stairs > Secret Elevator > Mind Control Facility > By the lightbulb button, climb onto the chair/table and over the edge",
-        "ending": "Bottom of the Mind Control Facility Ending"
+        "ending": "Bottom of the Mind Control Facility Ending",
+        "bucket-ending": "???"
     },
     "freedom": {
         "option": "powered the facility OFF",
         "hint": "Left Door > Up Stairs > Secret Elevator > Mind Control Facility > Power OFF",
-        "ending": "Freedom Ending"
+        "ending": "Freedom Ending",
+        "bucket-ending": "Trapped Ending"
     },
     "countdown": {
         "option": "powered the facility ON",
         "hint": "Left Door > Up Stairs > Secret Elevator > Mind Control Facility > Power ON",
-        "ending": "Countdown Ending"
+        "ending": "Countdown Ending",
+        "bucket-ending": "Silly Birds Ending"
     },
     "maintenance": {
         "option": "taken the left door into the Maintenance Room and taken the elevator",
         "hint": "Right Door > Left Turn after Lounge > Maintenance Room Elevator",
-        "ending": "Confusion Ending"
+        "ending": "Confusion Ending",
+        "bucket-ending": "Bucket Destroyer Ending"
     },
     "warehouse": {
         "option": "gone straight ahead into the warehouse",
@@ -119,18 +129,21 @@ var endings = {
     "powerful": {
         "option": "walked off the ledge",
         "hint": "Right Door > Go Straight after Lounge > Walk off ledge",
-        "ending": "Powerful Ending"
+        "ending": "Powerful Ending",
+        "bucket-ending": "???"
     },
     "coldFeet": {
         "option": "stepped onto the lift, then quickly back off once it started moving",
         "hint": "Right Door > Go Straight after Lounge > Step onto the lift, but quickly back off once it begins to move",
-        "ending": "Cold Feet Ending"
+        "ending": "Cold Feet Ending",
+        "bucket-ending": "???"
     },
     "vent": {
         "tspud": true,
         "option": "[UD only] taken the wooden ramp & entered the vent",
         "hint": "[UD only] Right Door > Go Straight after Lounge > Take the wooden ramp, drop down & enter the vent (if there's no wooden ramp, you may need to try again at a different point in the game).",
-        "ending": "Vent Ending"
+        "ending": "Vent Ending",
+        "bucket-ending": "Bucket Vent Ending"
     },
     "lift": {
         "option": "gotten on the lift",
@@ -142,12 +155,14 @@ var endings = {
         "option": "jumped onto the catwalk",
         "hint": "Right Door > Go Straight after Lounge > Lift > When the lift is partway across, wait until you're right over the catwalk, then drop down onto it.",
         "prompt": "After dropping onto the catwalk, I have...",
-        "paths": ["redDoor", "blueDoor"]
+        "paths": ["redDoor", "blueDoor"],
+        "bucket-ending": "Quiz Show Ending"
     },
     "phone": {
         "option": "picked up the phone",
         "hint": "Right Door > Go Straight after Lounge > Lift > Pick up Phone",
-        "ending": "Apartment Ending"
+        "ending": "Apartment Ending",
+        "bucket-ending": "Bucket Apartment Ending"
     },
     "unplug": {
         "option": "unplugged the phone",
@@ -158,13 +173,15 @@ var endings = {
     "realPerson": {
         "option": "continued as instructed",
         "hint": "Right Door > Go Straight after Lounge > Lift > Unplug Phone",
-        "ending": "Real Person Ending"
+        "ending": "Real Person Ending",
+        "bucket-ending": "Comedy Ending"
     },
     "loadingDockB": {
         "tspud": true,
         "option": "[UD only] gotten onto the warehouse floor and entered Loading Dock B",
         "hint": "[UD only] Right Door > Go Straight after Lounge > Lift > Unplug Phone > Before getting back on the lift, crouch-wiggle through the chain-link fence, drop to the ground, and check out the floor + Loading Dock B.",
-        "ending": "Loading Dock B 'Ending'"
+        "ending": "Loading Dock B 'Ending'",
+        "no-bucket": true
     },
     "redDoor": {
         "option": "taken the red door",
