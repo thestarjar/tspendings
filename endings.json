@@ -19,7 +19,7 @@ var endings = {
         "option": "entered 'sv_cheats 1' in the developer console",
         "hint": "Before launching the game in Steam, click Settings > General, go to 'Launch Options', and enter <strong>-console</strong>. Then, launch the game and input <strong>sv_cheats 1</strong> in the console.",
         "ending": "Serious Ending",
-        "no-bucket": true
+        "non-tspud": true
     },
     "input1": {
         "option": "clicked the INPUT screen on computer 419 (if the input screen isn't there, you have done this!)",

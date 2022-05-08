@@ -52,7 +52,7 @@
                     $("#input1").addClass("inputs");
                     ultraDeluxe = $("#ud").is(':checkbox:checked');
                     if (ultraDeluxe) {
-                        $("#achievedLabel").append(" (out of 21)")
+                        $("#achievedLabel").append(" (out of 20)")
                     } else {
                         $("#achievedLabel").append(" (out of 18)")
                     };
@@ -102,6 +102,9 @@
                 form.append($("<div></div>").text(routes[base].prompt).attr("class", "prompt"));
                 for (var i = 0; i < options.length; i++) {
                     if (!ultraDeluxe && "tspud" in routes[options[i]]) {
+                        continue;
+                    };
+                    if (ultraDeluxe && "non-tspud" in routes[options[i]]) {
                         continue;
                     };
                     form.append($("<input/>").attr("type", "checkbox").attr("id", options[i]));
